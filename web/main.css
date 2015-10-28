@@ -1,0 +1,23 @@
+/* Color Libraty
+#D2B48C (tan)
+#F08080 (coral) with #FFFFFF (white) or #696969 (silver) text
+#FFFF99 (yellow) with #696969 (silver) or #F08080 (coral) text   */
+
+body {
+	background-color:#D2B48C;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+th {
+    background-color: #FFFF99;
+    color: #696969;
+}
+
+td {
+    background-color: #F08080;
+    color: #FFFFFF;
+}
+
