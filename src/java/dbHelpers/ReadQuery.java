@@ -72,25 +72,25 @@ public class ReadQuery {
       try {
          table += "<tr>";
          
-            table += "<td>";
+            table += "<th>";
             table += "ID";
-            table += "</td>";
+            table += "</th>";
             
-            table += "<td>";
+            table += "<th>";
             table += "In Game ID";
-            table += "</td>";
+            table += "</th>";
             
-            table += "<td>";
+            table += "<th>";
             table += "Player Name";
-            table += "</td>";
+            table += "</th>";
             
-            table += "<td>";
+            table += "<th>";
             table += "TotalIncome($)";
-            table += "</td>";
+            table += "</th>";
             
-            table += "<td>";
+            table += "<th>";
             table += "PlayingGame";
-            table += "</td>";
+            table += "</th>";
             
             table += "</tr>";
          while(this.results.next()){
