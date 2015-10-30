@@ -124,6 +124,10 @@ public class ReadQuery {
             table += eSportPlayers.getPlayingGame();
             table += "</td>";
             
+            table += "<td>";
+            table += "<a href=delete?playerID=" + eSportPlayers.getPlayerID() + "> Delete </a>";
+            table += "</td>";
+            
             table += "</tr>";
          }
       } catch (SQLException ex) {
