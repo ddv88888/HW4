@@ -12,5 +12,9 @@
    <body>
       <h1>E-sports Players 2015 Income</h1>
       <%= table %>
+      <br><br>
+      
+      <a href ="add">Add A New Friend</a>
+      
    </body>
 </html>
