@@ -13,8 +13,10 @@
       <link rel="stylesheet" type="text/css" href="./main.css" />
    </head>
    <body>
-      <h1>E-sports Players 2015 Income</h1>
+      <div class="index">
+         <h1>E-sports Players 2015 Income</h1>
       
-      <a href="read">View details</a>
+         <a href="read">View details</a>
+      </div>
    </body>
 </html>

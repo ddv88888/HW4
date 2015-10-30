@@ -92,6 +92,10 @@ public class ReadQuery {
             table += "PlayingGame";
             table += "</th>";
             
+            table += "<th>";
+            table += "";
+            table += "</th>";
+            
             table += "</tr>";
          while(this.results.next()){
             
