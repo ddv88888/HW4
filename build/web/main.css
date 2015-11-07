@@ -1,0 +1,146 @@
+/* Color Libraty
+#D2B48C (tan)
+#F08080 (coral) with #FFFFFF (white) or #696969 (silver) text
+#FFFF99 (yellow) with #696969 (silver) or #F08080 (coral) text   */
+
+body {
+	background-color:#D2B48C;
+   margin:0 auto;
+}
+
+table {
+   border: solid white;
+   background-color: white;
+   border-collapse: separate;
+   border-spacing: 3px;
+   margin:0 auto;
+}
+
+th {
+    background-color: #FFFF99;
+    color: #696969;
+}
+h1{
+   text-align: center;
+}
+td {
+    background-color: #F08080;
+    color: #FFFFFF;
+}
+form{
+
+       border: solid black 1px;
+       width: 30%;
+       text-align: center;
+       margin:0 auto;      
+}
+
+input[readonly] {
+   background-color: gray;
+}
+
+a{
+   color: #696969;
+}
+
+div{
+   text-align: center;
+}
+p{
+   text-align: left;
+}
+.index{
+    text-align: center;
+    font-size: 1em;
+}
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: right;
+}
+
+
+.wrap{
+	text-align:center;
+	width:90%;
+	margin: 0 auto;
+	border: 2px solid black;
+	margin-top:25px;
+}
+
+.header{
+	background-color:tan;
+	text-align:left;
+	padding:25px;
+}
+
+.main{
+	background-color:pink;
+	text-align:left;
+	padding:25px;
+}
+
+.footer{
+	text-align:left;
+	padding:25px;
+}
+
+.headerImg{
+	float:left;
+	width:200px;
+	
+}
+
+.headerText{
+	float:left;
+	height:105px;
+	padding-top:50px;
+	padding-left:25px;
+	
+}
+
+.navcontainer { margin-left: 30px; }
+
+/*Fat Erik's Pipelist
+http://css.maxdesign.com.au/listamatic/horizontal32.htm*/
+.navlist
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.navlist li
+{
+display: inline;
+padding: 0;
+margin: 0;
+}
+
+.navlist li:before { content: "| "; }
+.navlist li:first-child:before { content: ""; }
+
+/*IE workaround*/
+/*All IE browsers*/
+* html #navlist li
+{
+border-left: 1px solid black;
+padding: 0 0.4em 0 0.4em;
+margin: 0 0.4em 0 -0.4em;
+}
+
+/*Win IE browsers - hide from Mac IE\*/
+* html #navlist { height: 1%; }
+
+* html #navlist li
+{
+display: block;
+float: left;
+}
+
+/*End hide*/
+/*Mac IE 5*/
+* html #navlist li:first-child { border-left: 0; }
