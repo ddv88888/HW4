@@ -15,6 +15,8 @@
       <br><br>
       <div>
          <a href ="add">Add A New Friend</a>
+         <br> <br>
+         <a href="search.jsp">Search Players</a>
       </div>
       
    </body>

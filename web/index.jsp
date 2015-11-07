@@ -17,6 +17,8 @@
          <h1>E-sports Players 2015 Income</h1>
       
          <a href="read">View details</a>
+         <br> <br>
+         <a href="search.jsp">Search Players</a>
       </div>
    </body>
 </html>
