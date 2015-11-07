@@ -13,6 +13,9 @@
       <link rel="stylesheet" type="text/css" href="./main.css" />
    </head>
    <body>
+      <div class="wrap">
+      <%@ include file="includes/header.jsp" %>
+      <%@ include file="includes/menu.jsp" %>
       <h1>Add A New Player</h1>
       
       <form name="addForm" action="addPlayer" method="get">
@@ -34,5 +37,7 @@
          
          
       </form>
+      <%@ include file="includes/footer.jsp" %>
+      </div>
    </body>
 </html>

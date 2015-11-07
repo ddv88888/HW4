@@ -7,6 +7,9 @@
       <link rel="stylesheet" type="text/css" href="./main.css" />
    </head>
    <body>
+      <div class="wrap">
+      <%@ include file="includes/header.jsp" %>
+      <%@ include file="includes/menu.jsp" %>
       <h1>Search Players</h1>
       
       <form name="searchForm" action="search" method="get">
@@ -16,5 +19,7 @@
          <input type="submit" name="submit" value="Search" />
          
       </form>
+      <%@ include file="includes/footer.jsp" %>
+      </div>
    </body>
 </html>

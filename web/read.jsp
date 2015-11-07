@@ -10,14 +10,12 @@
    <% String table = (String) request.getAttribute("table"); %>
    
    <body>
+      <div class="wrap">
+      <%@ include file="includes/header.jsp" %>
+      <%@ include file="includes/menu.jsp" %>
       <h1>E-sports Players 2015 Income</h1>
       <%= table %>
-      <br><br>
-      <div>
-         <a href ="add">Add A New Friend</a>
-         <br> <br>
-         <a href="search.jsp">Search Players</a>
+      <%@ include file="includes/footer.jsp" %>
       </div>
-      
    </body>
 </html>

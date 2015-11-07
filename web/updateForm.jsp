@@ -10,6 +10,9 @@
       <link rel="stylesheet" type="text/css" href="./main.css" />
    </head>
    <body>
+      <div class="wrap">
+      <%@ include file="includes/header.jsp" %>
+      <%@ include file="includes/menu.jsp" %>
       <h1>Update A Player Record</h1>
       
       <form name="updateForm" action="updatePlayer" method="get">
@@ -34,5 +37,7 @@
          
          
       </form>
+      <%@ include file="includes/footer.jsp" %>
+      </div>  
    </body>
 </html>

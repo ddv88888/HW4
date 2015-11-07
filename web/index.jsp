@@ -13,12 +13,14 @@
       <link rel="stylesheet" type="text/css" href="./main.css" />
    </head>
    <body>
+      <div class="wrap">
+      <%@ include file="includes/header.jsp" %>
+      <%@ include file="includes/menu.jsp" %>
       <div class="index">
-         <h1>E-sports Players 2015 Income</h1>
-      
-         <a href="read">View details</a>
-         <br> <br>
-         <a href="search.jsp">Search Players</a>
+         <h3>E-sports Players 2015 Income</h3>
+         <p>This list represents the top players in esports who won the most prize money based on information published on the internet. Sources include news articles, forum posts, live report threads, interviews, official statements, reliable databases, VODs and other publicly-accessable sources that preserve "historical" information.</p>
+      </div>
+      <%@ include file="includes/footer.jsp" %>
       </div>
    </body>
 </html>
