@@ -35,6 +35,10 @@ form{
        margin:0 auto;      
 }
 
+input[readonly] {
+   background-color: gray;
+}
+
 a{
    color: #696969;
 }
